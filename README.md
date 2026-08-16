@@ -161,6 +161,41 @@ retrieved, wrong code extracted from it. A concrete example of why a
 "mentioned in" field and a "the subject of" field need to be different
 fields, not one field doing both jobs.
 
+## Evaluation
+
+`src/eval/eval_retrieval.py` runs 15 hand-written questions
+(`src/eval/eval_set.py`) against the routing logic and checks whether it
+resolves to the correct error code — one question per error code, one
+explicit-code query (should skip embedding search entirely), and one
+question deliberately written to be hard: a full paraphrase of the
+`E-BT-207` scenario with no shared vocabulary with the doc text.
+
+**Result: 14/15 (93.3%) retrieval accuracy.**
+
+The one failure is worth explaining rather than hiding, because it's a
+real, diagnosed limitation, not a random miss:
+
+> *"my phone keeps randomly disconnecting from the car while driving"*
+> resolves to `E-BT-104` (pairing handshake timeout) instead of the
+> correct `E-BT-207` (signal lost during an active session).
+
+This is a **different bug** from the `primary_error_code` metadata issue
+above — that fix changed how we *read* the top search result, not how the
+embedding model *ranks* results, and for this specific paraphrase the
+ranking itself still favors the wrong chunk. Working hypothesis: the
+`E-BT-207` doc section's own text says *"Distinct from E-BT-104
+because..."* — which means the literal string `E-BT-104` sits inside
+`E-BT-207`'s embedded chunk text. A sentence written to help a human
+reader disambiguate two errors may be quietly pulling the `E-BT-207`
+chunk's vector toward `E-BT-104`'s semantic neighborhood, since the
+embedding model can't distinguish "mentions X for contrast" from "is
+related to X."
+
+This is left as a **documented known limitation** rather than patched —
+a system whose failure modes are identified, explained, and measured is
+more credible than one that happens to score 100% on 15 hand-picked
+questions with no visibility into where it would break on a 16th.
+
 ## Data
 
 The event logs and documentation in `data/` are **synthetic**, generated
@@ -169,25 +204,21 @@ architecture* above for the reasoning.
 
 ## Status
 
-Current pipeline:
+The core pipeline is implemented end to end: synthetic log generation
+(`src/ingest/generate_logs.py`), a structured log store indexed on
+timestamp/module/error_code/session_id (`src/ingest/log_loader.py`),
+structural documentation chunking with error-code metadata extraction
+(`src/ingest/doc_chunker.py`), embeddings and a FAISS vector store
+(`src/ingest/embeddings.py`), hybrid retrieval that combines structured
+log queries (`src/retrieval/structured_query.py`) with semantic doc
+search (`src/retrieval/semantic_search.py`) and routes between them
+(`src/pipeline/rag_chain.py`), and LLM synthesis via a local model
+(`llama3.1:8b` through Ollama) that turns retrieved evidence into a
+grounded, cited answer.
 
-1. ✅ Synthetic log generation (`src/ingest/generate_logs.py`)
-2. ✅ Structured log store — SQLite, indexed on timestamp/module/error_code/
-   session_id (`src/ingest/log_loader.py`)
-3. ✅ Documentation chunking — structural (heading-based) chunking with
-   metadata extraction, including error-code cross-referencing
-   (`src/ingest/doc_chunker.py`)
-4. ✅ Embeddings + vector store — sentence-transformers + FAISS, metadata
-   in SQLite (`src/ingest/embeddings.py`)
-5. ✅ Hybrid retrieval — structured log queries
-   (`src/retrieval/structured_query.py`), semantic doc search
-   (`src/retrieval/semantic_search.py`), combined and routed
-   (`src/pipeline/rag_chain.py`)
-6. ✅ LLM synthesis — local model via Ollama (`llama3.1:8b`) turns
-   retrieved evidence into a grounded, cited answer
-7. ⬜ Evaluation harness — hand-labeled Q&A set, retrieval recall +
-   answer-correctness metrics
-8. ⬜ Simple UI
+The evaluation harness currently covers retrieval accuracy (14/15, see
+*Evaluation* above); answer-correctness / groundedness metrics and a
+simple UI are still planned.
 
 ### Possible extensions
 
