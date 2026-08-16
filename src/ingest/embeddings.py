@@ -40,15 +40,18 @@ def build_index():
             module TEXT,
             section_title TEXT,
             error_codes TEXT,
+            primary_error_code TEXT,
             text TEXT
         )
     """)
     rows = [
         (i, c["metadata"]["source_file"], c["metadata"]["module"],
-         c["metadata"]["section_title"], c["metadata"]["error_codes"], c["text"])
+         c["metadata"]["section_title"], c["metadata"]["error_codes"],
+         c["metadata"]["primary_error_code"], c["text"])
         for i, c in enumerate(chunks)
     ]
-    conn.executemany("INSERT INTO chunks VALUES (?, ?, ?, ?, ?, ?)", rows)
+    conn.executemany("INSERT INTO chunks VALUES (?, ?, ?, ?, ?, ?, ?)", rows)
+
     conn.commit()
     conn.close()
 

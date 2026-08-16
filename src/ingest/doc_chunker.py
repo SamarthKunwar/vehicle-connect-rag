@@ -79,6 +79,7 @@ def chunk_document(text, source_file):
 
 def build_chunk(title, body, module, source_file):
     text = f"{title}\n\n{body}".strip()
+    title_codes = ERROR_CODE_PATTERN.findall(title)
     return {
         "text": text,
         "metadata": {
@@ -86,8 +87,10 @@ def build_chunk(title, body, module, source_file):
             "module": module,
             "section_title": title,
             "error_codes": ",".join(sorted(set(ERROR_CODE_PATTERN.findall(text)))),
+            "primary_error_code": title_codes[0] if title_codes else None,
         },
     }
+
 
 
 def chunk_all_docs(docs_dir=Path("data/docs")):
