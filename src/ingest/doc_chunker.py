@@ -59,7 +59,9 @@ def chunk_document(text, source_file):
     if preamble:
         title_match = re.match(r"^# (.+)$", preamble, re.MULTILINE)
         title = title_match.group(1) if title_match else "Introduction"
-        chunks.append(build_chunk(title, preamble, module, source_file))
+        body = re.sub(r"^# .+$", "", preamble, count=1, flags=re.MULTILINE).strip()
+        if body:
+            chunks.append(build_chunk(title, body, module, source_file))
 
     for section_title, section_body in split_by_headings(text, heading_level=2):
         sub_sections = split_by_headings(section_body, heading_level=3)
