@@ -1,0 +1,1463 @@
+timestamp,session_id,module,event_type,severity,error_code,message
+2026-08-01T06:01:23.278000,fb47b3b1,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:01:23.470000,fb47b3b1,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:01:23.779000,fb47b3b1,bluetooth,error,ERROR,E-BT-207,Bluetooth signal lost during active session
+2026-08-01T06:01:26.007000,fb47b3b1,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-207
+2026-08-01T06:01:32.631000,1984b598,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:01:33.138000,1984b598,bluetooth,error,ERROR,E-BT-104,Bluetooth pairing handshake timed out after 30s
+2026-08-01T06:01:35.477000,1984b598,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-104
+2026-08-01T06:02:52.533000,326c127f,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:02:52.746000,326c127f,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:02:53.510000,326c127f,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T06:02:53.992000,326c127f,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T06:03:39.136000,934fc4cb,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:03:40.014000,934fc4cb,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T06:03:41.922000,934fc4cb,infotainment_boot,reconnect,WARN,,infotainment_boot attempting reconnect after error E-BOOT-092
+2026-08-01T06:05:01.719000,313dbba0,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:05:02.239000,313dbba0,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:05:02.838000,313dbba0,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T06:05:03.015000,313dbba0,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T06:07:03.656000,160f162f,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T06:07:03.902000,160f162f,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T06:07:04.673000,160f162f,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T06:07:04.915000,160f162f,cloud_sync,error,ERROR,E-CLOUD-423,Cloud sync failed: backend returned 503
+2026-08-01T06:08:45.203000,60387067,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:08:45.356000,60387067,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:08:45.795000,60387067,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T06:08:46.129000,60387067,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T06:09:46.345000,402b9996,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:09:46.774000,402b9996,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:09:47.187000,402b9996,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:10:15.936000,0d1ae01b,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:10:16.649000,0d1ae01b,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:10:16.772000,0d1ae01b,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:11:36.295000,14112bf0,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:11:37.172000,14112bf0,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T06:13:00.923000,b1eef8fe,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:13:01.305000,b1eef8fe,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:13:01.412000,b1eef8fe,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:13:32.872000,bc43cd42,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:13:33.196000,bc43cd42,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:13:33.313000,bc43cd42,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:13:33.579000,bc43cd42,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T06:15:31.951000,792be1fc,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:15:32.218000,792be1fc,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T06:15:32.939000,792be1fc,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T06:16:38.647000,67290346,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T06:16:39.166000,67290346,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T06:16:39.362000,67290346,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T06:16:39.683000,67290346,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T06:16:59.284000,26bb7d92,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T06:16:59.603000,26bb7d92,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T06:17:00.251000,26bb7d92,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T06:17:00.739000,26bb7d92,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T06:18:57.013000,acf33792,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:18:57.204000,acf33792,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T06:18:57.775000,acf33792,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T06:20:02.937000,0dbb5413,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:20:03.143000,0dbb5413,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:20:03.835000,0dbb5413,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:20:04.048000,0dbb5413,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T06:21:47.163000,067bd06e,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:21:47.607000,067bd06e,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:21:48.047000,067bd06e,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:23:06.663000,b3eebc3f,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T06:23:06.724000,b3eebc3f,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T06:23:07.470000,b3eebc3f,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T06:23:08.258000,b3eebc3f,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T06:23:24.581000,de4fd61a,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:23:25.287000,de4fd61a,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:23:25.685000,de4fd61a,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:23:42.199000,4ebafbdf,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:23:42.252000,4ebafbdf,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:23:43.041000,4ebafbdf,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T06:23:43.827000,4ebafbdf,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T06:24:19.396000,0eb41b9b,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:24:19.554000,0eb41b9b,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T06:24:20.244000,0eb41b9b,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T06:25:00.497000,31b5c1b7,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:25:00.703000,31b5c1b7,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:25:01.135000,31b5c1b7,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:26:40.728000,8ed3f31a,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T06:26:40.778000,8ed3f31a,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T06:26:41.441000,8ed3f31a,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T06:26:41.822000,8ed3f31a,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T06:27:46.117000,f2bef7a6,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:27:46.226000,f2bef7a6,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:27:46.522000,f2bef7a6,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:27:47.783000,f2bef7a6,bluetooth,error,ERROR,E-BT-207,Bluetooth signal lost during active session
+2026-08-01T06:27:50.273000,f2bef7a6,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-207
+2026-08-01T06:29:36.868000,718271fc,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:29:37.046000,718271fc,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:29:37.227000,718271fc,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:29:37.952000,718271fc,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T06:30:40.554000,73d6547c,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:30:41.065000,73d6547c,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 10s
+2026-08-01T06:30:43.094000,73d6547c,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T06:31:41.397000,c824bcb6,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:31:41.677000,c824bcb6,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T06:31:41.792000,c824bcb6,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T06:32:27.077000,abba7915,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:32:27.729000,abba7915,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:32:28.004000,abba7915,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:32:28.061000,abba7915,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T06:32:39.345000,181ddfb5,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:32:39.464000,181ddfb5,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:32:39.546000,181ddfb5,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:34:32.281000,748e3f3e,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:34:32.828000,748e3f3e,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:34:33.097000,748e3f3e,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T06:34:34.301000,748e3f3e,infotainment_boot,error,ERROR,E-BOOT-050,Infotainment head unit boot exceeded 8s watchdog limit
+2026-08-01T06:36:28.599000,6961fadc,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:36:29.133000,6961fadc,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T06:36:29.599000,6961fadc,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T06:36:56.082000,df38a0f2,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:36:56.552000,df38a0f2,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:36:57.080000,df38a0f2,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:36:57.290000,df38a0f2,bluetooth,error,ERROR,E-BT-207,Bluetooth signal lost during active session
+2026-08-01T06:36:59.179000,df38a0f2,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-207
+2026-08-01T06:38:43.423000,5e1806a3,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:38:44.022000,5e1806a3,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:38:44.531000,5e1806a3,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:38:44.724000,5e1806a3,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T06:39:41.029000,280948ac,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T06:39:41.156000,280948ac,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T06:39:41.659000,280948ac,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T06:39:42.272000,280948ac,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T06:39:56.875000,f9e476f9,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:39:56.940000,f9e476f9,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:39:57.085000,f9e476f9,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:39:57.377000,f9e476f9,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T06:40:20.645000,b44f27f6,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T06:40:21.105000,b44f27f6,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T06:40:21.215000,b44f27f6,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T06:40:21.433000,b44f27f6,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T06:41:11.754000,8388e27e,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:41:12.269000,8388e27e,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:41:12.611000,8388e27e,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:41:13.094000,8388e27e,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T06:42:44.713000,cdd33d3e,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:42:45.440000,cdd33d3e,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:42:46.225000,cdd33d3e,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:43:50.497000,fc45008c,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T06:43:50.606000,fc45008c,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T06:43:51.249000,fc45008c,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T06:43:51.854000,fc45008c,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T06:44:00.955000,565476d9,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:44:01.603000,565476d9,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:44:02.141000,565476d9,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:45:08.261000,45f4a369,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:45:09.579000,45f4a369,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 5s
+2026-08-01T06:45:42.263000,735adb8a,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T06:45:42.530000,735adb8a,cloud_sync,error,ERROR,E-CLOUD-410,Cloud sync rejected: authentication token expired
+2026-08-01T06:46:56.847000,84f8d79f,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:46:57.106000,84f8d79f,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T06:46:57.841000,84f8d79f,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T06:48:31.296000,f8614a6b,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:48:31.480000,f8614a6b,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:48:32.217000,f8614a6b,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T06:48:32.927000,f8614a6b,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T06:49:13.051000,06971c0c,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T06:49:13.110000,06971c0c,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T06:49:13.629000,06971c0c,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T06:49:14.315000,06971c0c,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T06:50:28.500000,51397754,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:50:28.907000,51397754,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T06:50:29.027000,51397754,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T06:50:29.627000,51397754,bluetooth,error,ERROR,E-BT-104,Bluetooth pairing handshake timed out after 10s
+2026-08-01T06:50:31.921000,51397754,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-104
+2026-08-01T06:52:20.597000,e7a200e4,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:52:21.316000,e7a200e4,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T06:52:21.907000,e7a200e4,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T06:52:25.263000,ffae3a6f,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:52:25.992000,ffae3a6f,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:52:26.148000,ffae3a6f,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:54:20.307000,509d1920,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T06:54:20.923000,509d1920,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T06:54:21.132000,509d1920,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T06:54:21.460000,509d1920,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T06:54:59.861000,91407ac2,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T06:55:00.119000,91407ac2,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T06:55:00.872000,91407ac2,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T06:56:24.179000,64964bd5,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:56:24.281000,64964bd5,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:56:24.425000,64964bd5,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T06:56:25.124000,64964bd5,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T06:57:21.826000,dac020e3,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:57:22.144000,dac020e3,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:57:22.574000,dac020e3,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T06:57:24.825000,dac020e3,infotainment_boot,reconnect,WARN,,infotainment_boot attempting reconnect after error E-BOOT-092
+2026-08-01T06:58:38.253000,2b9efcae,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T06:58:39.545000,2b9efcae,bluetooth,error,ERROR,E-BT-104,Bluetooth pairing handshake timed out after 30s
+2026-08-01T06:58:40.567000,2b9efcae,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-104
+2026-08-01T06:58:47.657000,d7caeb70,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T06:58:48.073000,d7caeb70,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T06:58:48.338000,d7caeb70,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T06:58:49.086000,d7caeb70,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T06:59:22.294000,6b7a77e9,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T06:59:22.586000,6b7a77e9,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T06:59:22.802000,6b7a77e9,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T06:59:23.264000,6b7a77e9,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T06:59:25.124000,6b7a77e9,voice_assistant,reconnect,WARN,,voice_assistant attempting reconnect after error E-VA-201
+2026-08-01T07:01:07.428000,81bf11d5,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:01:07.751000,81bf11d5,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:01:07.964000,81bf11d5,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:01:08.732000,81bf11d5,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:01:24.263000,ac90c40f,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:01:24.540000,ac90c40f,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:01:24.794000,ac90c40f,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:01:25.315000,ac90c40f,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:02:11.598000,eb2e4c75,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:02:11.876000,eb2e4c75,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:02:11.950000,eb2e4c75,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:02:12.675000,eb2e4c75,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:02:38.796000,7a0ef4ac,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:02:39.131000,7a0ef4ac,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:02:39.540000,7a0ef4ac,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:02:40.246000,7a0ef4ac,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:03:47.845000,15483549,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:03:48.234000,15483549,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:03:48.312000,15483549,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:03:48.480000,15483549,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:05:42.641000,1e0c2c33,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:05:43.962000,1e0c2c33,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T07:05:45.746000,1e0c2c33,infotainment_boot,reconnect,WARN,,infotainment_boot attempting reconnect after error E-BOOT-092
+2026-08-01T07:06:42.914000,ece0c1b6,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T07:06:43.358000,ece0c1b6,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T07:06:43.998000,ece0c1b6,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T07:07:10.580000,80110429,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:07:11.782000,80110429,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T07:07:12.568000,80110429,infotainment_boot,reconnect,WARN,,infotainment_boot attempting reconnect after error E-BOOT-092
+2026-08-01T07:08:40.297000,ef38054b,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:08:40.474000,ef38054b,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:08:41.261000,ef38054b,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:08:41.618000,ef38054b,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:09:48.002000,688fb4a3,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:09:48.464000,688fb4a3,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:09:49.227000,688fb4a3,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:09:49.579000,688fb4a3,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:11:02.309000,8860523d,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:11:02.747000,8860523d,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:11:03.490000,8860523d,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:11:03.718000,8860523d,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:12:24.329000,d97dcc8c,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T07:12:24.379000,d97dcc8c,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T07:12:24.740000,d97dcc8c,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T07:13:03.383000,5d4b34d7,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:13:04.054000,5d4b34d7,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:13:04.774000,5d4b34d7,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:13:05.153000,5d4b34d7,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:14:06.421000,598d0b4a,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:14:06.994000,598d0b4a,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:14:07.528000,598d0b4a,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:14:07.751000,598d0b4a,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:15:34.480000,e6d45354,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T07:15:35.178000,e6d45354,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T07:15:35.862000,e6d45354,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T07:15:36.255000,e6d45354,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T07:15:49.535000,aa5c86bc,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:15:49.788000,aa5c86bc,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:15:49.988000,aa5c86bc,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:15:50.063000,aa5c86bc,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:15:57.738000,f1e88f01,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:15:57.862000,f1e88f01,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:15:58.378000,f1e88f01,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:15:58.852000,f1e88f01,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:17:54.637000,57247ce4,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T07:17:55.400000,57247ce4,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T07:17:55.843000,57247ce4,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T07:19:01.564000,65f875d3,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:19:02.318000,65f875d3,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:19:02.373000,65f875d3,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:19:02.532000,65f875d3,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:20:44.294000,1150df75,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:20:44.874000,1150df75,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:20:45.399000,1150df75,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:20:45.500000,1150df75,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:21:58.674000,198debdf,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:21:59.191000,198debdf,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:21:59.377000,198debdf,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:21:59.902000,198debdf,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:23:27.561000,db387258,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T07:23:27.935000,db387258,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T07:23:28.438000,db387258,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T07:24:48.924000,f6e57241,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T07:24:49.535000,f6e57241,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T07:24:50.041000,f6e57241,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T07:26:46.577000,6561610b,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:26:47.087000,6561610b,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:26:47.402000,6561610b,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:26:47.705000,6561610b,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:28:37.288000,39ce6d83,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T07:28:37.834000,39ce6d83,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T07:28:38.525000,39ce6d83,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T07:29:11.305000,2151ef15,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:29:11.647000,2151ef15,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:29:11.937000,2151ef15,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:29:12.265000,2151ef15,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:29:56.397000,183c9a44,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:29:56.588000,183c9a44,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:29:56.792000,183c9a44,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:29:57.078000,183c9a44,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:30:48.552000,fc1f1fc2,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T07:30:49.486000,fc1f1fc2,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T07:30:51.689000,fc1f1fc2,voice_assistant,reconnect,WARN,,voice_assistant attempting reconnect after error E-VA-201
+2026-08-01T07:31:01.137000,1ae52063,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:31:01.785000,1ae52063,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:31:02.547000,1ae52063,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:31:02.617000,1ae52063,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:32:53.673000,02c7b4a6,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T07:32:54.083000,02c7b4a6,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T07:32:54.438000,02c7b4a6,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T07:34:32.917000,e851d5f8,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:34:33.518000,e851d5f8,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:34:34.127000,e851d5f8,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:34:34.794000,e851d5f8,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:36:31.123000,03cd620e,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:36:31.619000,03cd620e,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:36:32.166000,03cd620e,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:36:32.245000,03cd620e,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:37:23.709000,37c57282,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:37:24.500000,37c57282,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:37:24.719000,37c57282,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:37:25.247000,37c57282,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:39:24.843000,1947da76,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T07:39:24.920000,1947da76,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T07:39:25.373000,1947da76,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T07:39:26.029000,1947da76,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T07:40:40.551000,cb8b749e,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T07:40:41.023000,cb8b749e,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T07:40:42.863000,cb8b749e,voice_assistant,reconnect,WARN,,voice_assistant attempting reconnect after error E-VA-201
+2026-08-01T07:41:12.301000,5dc95363,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:41:12.635000,5dc95363,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:41:13.116000,5dc95363,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:41:13.424000,5dc95363,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:43:02.026000,67a88775,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T07:43:02.129000,67a88775,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T07:43:02.537000,67a88775,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T07:43:02.816000,67a88775,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T07:44:28.533000,9a432af4,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T07:44:28.624000,9a432af4,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T07:44:28.705000,9a432af4,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T07:44:29.008000,9a432af4,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T07:44:56.302000,3e5ae260,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T07:44:56.481000,3e5ae260,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T07:44:57.015000,3e5ae260,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T07:44:57.750000,3e5ae260,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T07:45:14.276000,721c82f4,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T07:45:15.042000,721c82f4,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T07:45:15.354000,721c82f4,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T07:46:55.722000,f7553e6d,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:46:55.882000,f7553e6d,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:46:57.167000,f7553e6d,infotainment_boot,error,ERROR,E-BOOT-050,Infotainment head unit boot exceeded 5s watchdog limit
+2026-08-01T07:48:12.601000,89999868,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T07:48:13.057000,89999868,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T07:48:13.839000,89999868,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T07:48:41.531000,677c3a2f,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T07:48:41.829000,677c3a2f,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T07:48:41.983000,677c3a2f,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T07:48:42.746000,677c3a2f,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T07:50:23.410000,e77ffe8c,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:50:23.583000,e77ffe8c,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:50:24.212000,e77ffe8c,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:50:24.304000,e77ffe8c,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:51:10.733000,813f5c56,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T07:51:10.853000,813f5c56,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T07:51:11.421000,813f5c56,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T07:52:35.579000,d6d3f8de,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:52:36.072000,d6d3f8de,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:52:36.492000,d6d3f8de,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:52:37.192000,d6d3f8de,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:52:38.233000,d6d3f8de,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T07:52:40.870000,d6d3f8de,infotainment_boot,reconnect,WARN,,infotainment_boot attempting reconnect after error E-BOOT-092
+2026-08-01T07:54:06.471000,95a70756,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:54:07.016000,95a70756,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:54:07.542000,95a70756,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:54:08.038000,95a70756,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T07:55:55.418000,59e997f8,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T07:55:55.719000,59e997f8,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T07:55:55.857000,59e997f8,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T07:56:33.382000,a45f3307,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T07:56:34.015000,a45f3307,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T07:56:34.689000,a45f3307,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T07:56:35.423000,a45f3307,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T07:57:25.972000,d7214464,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:57:26.239000,d7214464,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:57:27.065000,d7214464,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T07:57:30.006000,d7214464,infotainment_boot,reconnect,WARN,,infotainment_boot attempting reconnect after error E-BOOT-092
+2026-08-01T07:59:01.585000,4b044ad7,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T07:59:01.830000,4b044ad7,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T07:59:01.967000,4b044ad7,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T07:59:02.264000,4b044ad7,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:00:36.560000,72b9652e,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:00:37.317000,72b9652e,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:00:37.854000,72b9652e,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:00:38.565000,72b9652e,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:02:11.632000,b28e041b,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:02:11.777000,b28e041b,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:02:12.128000,b28e041b,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:02:12.404000,b28e041b,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:03:06.133000,61d17ec7,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:03:06.778000,61d17ec7,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:03:07.205000,61d17ec7,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:04:09.690000,c12b4013,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:04:10.303000,c12b4013,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:04:10.691000,c12b4013,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:04:58.054000,afd0ebbd,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:04:58.361000,afd0ebbd,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:04:58.647000,afd0ebbd,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:05:15.819000,5177eebf,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:05:16.417000,5177eebf,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:05:17.173000,5177eebf,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:05:42.718000,8783cb25,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T08:05:43.051000,8783cb25,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T08:05:43.842000,8783cb25,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T08:05:44.495000,8783cb25,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T08:07:23.647000,e1910a3c,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:07:23.895000,e1910a3c,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:07:24.248000,e1910a3c,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:07:55.578000,dbef6967,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:07:55.674000,dbef6967,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:07:55.885000,dbef6967,infotainment_boot,error,ERROR,E-BOOT-050,Infotainment head unit boot exceeded 30s watchdog limit
+2026-08-01T08:07:56.902000,dbef6967,infotainment_boot,reconnect,WARN,,infotainment_boot attempting reconnect after error E-BOOT-050
+2026-08-01T08:09:20.432000,8d76530f,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:09:20.972000,8d76530f,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:09:21.473000,8d76530f,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:09:22.270000,8d76530f,cloud_sync,error,ERROR,E-CLOUD-410,Cloud sync rejected: authentication token expired
+2026-08-01T08:09:56.823000,2c326141,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:09:56.948000,2c326141,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:09:57.588000,2c326141,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:09:58.282000,2c326141,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:09:58.491000,2c326141,cloud_sync,error,ERROR,E-CLOUD-410,Cloud sync rejected: authentication token expired
+2026-08-01T08:10:01.296000,2c326141,cloud_sync,reconnect,WARN,,cloud_sync attempting reconnect after error E-CLOUD-410
+2026-08-01T08:10:41.467000,0b5e104d,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T08:10:42.088000,0b5e104d,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T08:10:42.564000,0b5e104d,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T08:10:43.234000,0b5e104d,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T08:12:01.819000,57da37f0,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:12:02.258000,57da37f0,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:12:02.769000,57da37f0,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:14:01.421000,f76f6d13,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:14:01.910000,f76f6d13,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:14:02.272000,f76f6d13,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:14:02.904000,f76f6d13,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:15:24.055000,d69255d8,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T08:15:24.317000,d69255d8,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T08:15:25.007000,d69255d8,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T08:15:25.273000,d69255d8,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T08:16:00.888000,c583dabd,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:16:01.141000,c583dabd,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T08:16:03.486000,c583dabd,voice_assistant,reconnect,WARN,,voice_assistant attempting reconnect after error E-VA-201
+2026-08-01T08:17:33.569000,4641c105,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:17:33.856000,4641c105,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:17:34.201000,4641c105,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:19:06.715000,1b654f66,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:19:06.837000,1b654f66,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:19:07.590000,1b654f66,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:19:07.879000,1b654f66,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:21:08.569000,ea202e41,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:21:09.222000,ea202e41,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:21:09.949000,ea202e41,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:21:10.201000,ea202e41,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:22:06.914000,9dd75a08,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T08:22:07.116000,9dd75a08,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T08:22:07.438000,9dd75a08,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T08:22:07.633000,9dd75a08,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T08:22:19.132000,f4a4e584,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T08:22:19.309000,f4a4e584,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T08:22:19.838000,f4a4e584,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T08:22:20.560000,f4a4e584,bluetooth,error,ERROR,E-BT-207,Bluetooth signal lost during active session
+2026-08-01T08:23:26.692000,15c07784,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:23:27.354000,15c07784,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:23:27.444000,15c07784,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:25:23.112000,96c220cf,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:25:23.418000,96c220cf,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:25:23.494000,96c220cf,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:25:23.637000,96c220cf,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:25:55.276000,f07d18db,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:25:55.927000,f07d18db,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:25:55.998000,f07d18db,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:27:35.638000,834265f8,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:27:35.729000,834265f8,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:27:35.958000,834265f8,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:28:38.292000,de161869,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:28:38.527000,de161869,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:28:39.176000,de161869,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:29:36.319000,26088563,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:29:36.850000,26088563,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:29:37.256000,26088563,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:30:31.413000,d59e2337,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:30:31.627000,d59e2337,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:30:32.014000,d59e2337,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:30:32.485000,d59e2337,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:32:02.945000,a75bbbd2,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:32:03.558000,a75bbbd2,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:32:03.645000,a75bbbd2,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:32:04.160000,a75bbbd2,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:32:17.328000,cfd41a1a,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:32:17.791000,cfd41a1a,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:32:18.367000,cfd41a1a,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:32:18.418000,cfd41a1a,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:33:44.523000,f7264fca,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:33:44.765000,f7264fca,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:33:45.345000,f7264fca,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:34:34.035000,90d903d2,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:34:34.537000,90d903d2,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:34:34.639000,90d903d2,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:35:02.983000,b23d233d,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:35:03.481000,b23d233d,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:35:04.246000,b23d233d,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:35:04.792000,b23d233d,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:35:22.465000,8ed1f7f7,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T08:35:22.760000,8ed1f7f7,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T08:35:23.536000,8ed1f7f7,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T08:35:23.748000,8ed1f7f7,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T08:36:05.028000,e046adeb,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:36:05.360000,e046adeb,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 15s
+2026-08-01T08:37:30.143000,8559c76b,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T08:37:30.491000,8559c76b,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T08:37:31.062000,8559c76b,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T08:37:31.834000,8559c76b,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T08:38:08.367000,5c1fc4b0,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:38:08.666000,5c1fc4b0,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:38:09.183000,5c1fc4b0,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:38:09.797000,5c1fc4b0,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:38:30.460000,73af94cd,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:38:31.030000,73af94cd,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:38:31.219000,73af94cd,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:38:31.340000,73af94cd,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:39:08.909000,56ab2613,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:39:09.232000,56ab2613,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:39:09.284000,56ab2613,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:39:09.623000,56ab2613,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:40:44.266000,e59b30e6,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:40:44.991000,e59b30e6,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:40:45.542000,e59b30e6,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:40:45.744000,e59b30e6,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:41:45.134000,4ed06a28,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:41:45.749000,4ed06a28,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:41:46.355000,4ed06a28,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:42:36.598000,4e571fcf,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:42:37.362000,4e571fcf,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:42:37.656000,4e571fcf,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:42:38.291000,4e571fcf,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:43:29.761000,ae7d52a1,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T08:43:29.855000,ae7d52a1,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T08:43:30.230000,ae7d52a1,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T08:43:30.764000,ae7d52a1,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T08:45:03.493000,ec7bb9c0,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:45:04.210000,ec7bb9c0,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:45:04.415000,ec7bb9c0,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:45:04.972000,ec7bb9c0,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:45:11.626000,74510635,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T08:45:12.015000,74510635,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T08:45:12.167000,74510635,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T08:45:12.667000,74510635,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T08:45:26.732000,dc4a4ac9,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:45:27.521000,dc4a4ac9,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:45:27.718000,dc4a4ac9,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:46:21.844000,9e0128f3,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:46:22.374000,9e0128f3,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:46:22.695000,9e0128f3,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:47:08.410000,93983cd1,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T08:47:08.542000,93983cd1,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T08:47:08.928000,93983cd1,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T08:49:00.367000,e162bd89,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:49:00.741000,e162bd89,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:49:01.432000,e162bd89,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:50:34.518000,8dd5d5c6,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T08:50:35.200000,8dd5d5c6,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T08:50:35.320000,8dd5d5c6,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T08:50:35.610000,8dd5d5c6,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T08:51:57.892000,e2decd04,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:51:58.034000,e2decd04,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:51:58.528000,e2decd04,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:52:12.680000,be1cfab5,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:52:13.184000,be1cfab5,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:52:13.404000,be1cfab5,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T08:53:43.501000,0184d548,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:53:43.883000,0184d548,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:53:43.990000,0184d548,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:53:44.340000,0184d548,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:54:31.640000,ee910a95,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:54:32.233000,ee910a95,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:54:32.704000,ee910a95,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:54:33.333000,ee910a95,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:56:03.017000,e3d28d30,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T08:56:03.766000,e3d28d30,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T08:56:04.062000,e3d28d30,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T08:56:04.621000,e3d28d30,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T08:56:05.915000,e3d28d30,wifi,error,ERROR,E-WIFI-301,WiFi module failed to acquire IP address via DHCP
+2026-08-01T08:56:07.455000,e3d28d30,wifi,reconnect,WARN,,wifi attempting reconnect after error E-WIFI-301
+2026-08-01T08:57:07.981000,2579b59e,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T08:57:08.325000,2579b59e,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T08:57:09.068000,2579b59e,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T08:57:09.677000,2579b59e,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T08:57:32.080000,66d2a38e,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T08:57:32.731000,66d2a38e,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T08:57:33.087000,66d2a38e,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T08:57:33.791000,66d2a38e,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T08:58:30.150000,b59c4a31,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T08:58:30.403000,b59c4a31,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T08:58:30.846000,b59c4a31,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:00:22.484000,b4dd678f,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:00:22.836000,b4dd678f,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:00:23.602000,b4dd678f,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:00:24.306000,b4dd678f,cloud_sync,error,ERROR,E-CLOUD-423,Cloud sync failed: backend returned 503
+2026-08-01T09:01:50.935000,cb8e85ab,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:01:51.687000,cb8e85ab,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:01:51.787000,cb8e85ab,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:01:52.457000,cb8e85ab,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:03:29.800000,0fc56945,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:03:30.085000,0fc56945,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:03:30.756000,0fc56945,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:03:31.166000,0fc56945,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:04:01.472000,98a9e12b,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:04:02.216000,98a9e12b,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:04:03.004000,98a9e12b,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:05:43.194000,e7a8a58e,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:05:43.887000,e7a8a58e,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:05:44.036000,e7a8a58e,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:07:41.402000,5b582755,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:07:41.903000,5b582755,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:07:41.987000,5b582755,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:08:58.129000,e6d0cd05,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T09:08:58.481000,e6d0cd05,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T09:08:58.865000,e6d0cd05,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T09:08:59.340000,e6d0cd05,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T09:09:23.558000,58726bb5,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:09:23.871000,58726bb5,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:09:24.414000,58726bb5,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T09:09:25.118000,58726bb5,wifi,error,ERROR,E-WIFI-315,WiFi authentication rejected by access point
+2026-08-01T09:10:26.738000,07b5af01,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:10:27.162000,07b5af01,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:10:27.304000,07b5af01,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:10:27.758000,07b5af01,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T09:10:27.886000,07b5af01,bluetooth,error,ERROR,E-BT-104,Bluetooth pairing handshake timed out after 10s
+2026-08-01T09:10:30.248000,07b5af01,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-104
+2026-08-01T09:11:19.566000,1aaa26c2,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:11:20.214000,1aaa26c2,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:11:20.654000,1aaa26c2,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:13:07.814000,c186c2ce,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:13:08.555000,c186c2ce,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:13:08.844000,c186c2ce,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:14:11.468000,7346b4ea,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:14:11.853000,7346b4ea,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:14:12.527000,7346b4ea,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:14:12.803000,7346b4ea,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T09:15:37.328000,27135d37,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:15:38.095000,27135d37,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:15:38.454000,27135d37,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:15:39.168000,27135d37,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T09:16:33.722000,84da5a57,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:16:33.890000,84da5a57,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:16:34.039000,84da5a57,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:16:34.619000,84da5a57,bluetooth,error,ERROR,E-BT-104,Bluetooth pairing handshake timed out after 30s
+2026-08-01T09:16:36.977000,84da5a57,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-104
+2026-08-01T09:17:26.740000,ba6e2daf,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:17:27.343000,ba6e2daf,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:17:27.822000,ba6e2daf,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:18:45.296000,d042d90b,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:18:46.016000,d042d90b,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:18:46.167000,d042d90b,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:20:34.503000,e5291ed5,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:20:34.586000,e5291ed5,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:20:35.342000,e5291ed5,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:20:35.771000,e5291ed5,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:21:05.062000,5c2baae4,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:21:05.483000,5c2baae4,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:21:05.634000,5c2baae4,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:21:06.386000,5c2baae4,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:21:56.096000,9c06478a,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T09:21:56.513000,9c06478a,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T09:21:56.625000,9c06478a,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T09:22:48.800000,ba77dbf1,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T09:22:49.315000,ba77dbf1,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T09:22:49.458000,ba77dbf1,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T09:22:50.186000,ba77dbf1,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T09:23:19.257000,6faa3f52,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:23:19.358000,6faa3f52,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:23:19.749000,6faa3f52,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:23:53.009000,cc20b58a,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:23:53.129000,cc20b58a,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:23:53.746000,cc20b58a,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T09:23:54.008000,cc20b58a,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T09:25:11.296000,6f67ba31,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:25:11.682000,6f67ba31,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:25:11.883000,6f67ba31,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T09:25:12.543000,6f67ba31,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T09:25:14.741000,5880fa1b,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T09:25:14.924000,5880fa1b,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T09:25:15.527000,5880fa1b,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T09:25:15.833000,5880fa1b,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T09:26:59.898000,8b5e1bd1,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:27:00.314000,8b5e1bd1,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:27:00.901000,8b5e1bd1,wifi,error,ERROR,E-WIFI-301,WiFi module failed to acquire IP address via DHCP
+2026-08-01T09:27:02.114000,8b5e1bd1,wifi,reconnect,WARN,,wifi attempting reconnect after error E-WIFI-301
+2026-08-01T09:27:37.229000,2d800921,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:27:38.304000,2d800921,bluetooth,error,ERROR,E-BT-207,Bluetooth signal lost during active session
+2026-08-01T09:28:45.398000,6142cf5d,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T09:28:46.192000,6142cf5d,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T09:28:46.916000,6142cf5d,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T09:28:48.083000,6142cf5d,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 10s
+2026-08-01T09:28:48.710000,6142cf5d,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T09:28:58.196000,b70cf02c,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:28:58.948000,b70cf02c,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:28:59.108000,b70cf02c,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:28:59.660000,b70cf02c,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:30:33.332000,130e4f73,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:30:33.533000,130e4f73,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:30:33.650000,130e4f73,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:30:34.008000,130e4f73,cloud_sync,error,ERROR,E-CLOUD-410,Cloud sync rejected: authentication token expired
+2026-08-01T09:31:50.448000,42b8dd4b,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T09:31:51.109000,42b8dd4b,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T09:31:51.702000,42b8dd4b,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T09:32:31.192000,d947c1b3,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:32:31.343000,d947c1b3,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:32:32.111000,d947c1b3,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:32:32.278000,d947c1b3,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:34:23.892000,fb53d3dc,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:34:24.680000,fb53d3dc,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:34:24.950000,fb53d3dc,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:35:22.423000,cd6831fa,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:35:22.820000,cd6831fa,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:35:23.334000,cd6831fa,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:35:23.792000,cd6831fa,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:36:19.523000,a1e42548,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:36:19.834000,a1e42548,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:36:20.700000,a1e42548,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T09:37:23.192000,c637627e,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:37:23.489000,c637627e,bluetooth,error,ERROR,E-BT-104,Bluetooth pairing handshake timed out after 10s
+2026-08-01T09:38:37.114000,39d40f7b,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:38:37.739000,39d40f7b,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:38:38.126000,39d40f7b,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:38:38.862000,39d40f7b,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T09:38:56.593000,adbf414a,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:38:57.076000,adbf414a,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:38:57.864000,adbf414a,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:38:57.966000,adbf414a,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:39:36.122000,a837ff0f,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T09:39:36.763000,a837ff0f,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T09:39:37.332000,a837ff0f,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T09:40:06.611000,ad504dc2,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:40:06.771000,ad504dc2,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:40:07.179000,ad504dc2,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T09:40:07.798000,ad504dc2,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T09:40:57.435000,0e3af742,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:40:57.716000,0e3af742,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:40:58.205000,0e3af742,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:40:58.829000,0e3af742,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T09:42:39.537000,7af908f6,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T09:42:40.157000,7af908f6,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T09:42:40.233000,7af908f6,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T09:43:59.556000,54e981b1,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:43:59.635000,54e981b1,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:43:59.869000,54e981b1,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:44:36.266000,6679ad65,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:44:36.675000,6679ad65,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:44:36.731000,6679ad65,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:45:02.191000,1a2a9339,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:45:02.312000,1a2a9339,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:45:02.507000,1a2a9339,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T09:45:03.205000,1a2a9339,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T09:45:08.475000,2804b359,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:45:08.910000,2804b359,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:45:09.389000,2804b359,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:45:09.903000,2804b359,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T09:45:55.691000,59c340fc,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:45:56.073000,59c340fc,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:45:56.704000,59c340fc,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T09:45:57.364000,59c340fc,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T09:46:09.692000,4deb492d,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:46:10.699000,4deb492d,bluetooth,error,ERROR,E-BT-104,Bluetooth pairing handshake timed out after 15s
+2026-08-01T09:46:13.009000,4deb492d,bluetooth,reconnect,WARN,,bluetooth attempting reconnect after error E-BT-104
+2026-08-01T09:47:08.583000,4aa6061d,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T09:47:08.749000,4aa6061d,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T09:47:09.152000,4aa6061d,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T09:47:09.642000,4aa6061d,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T09:47:26.299000,4a4dc9eb,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T09:47:26.847000,4a4dc9eb,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T09:47:27.436000,4a4dc9eb,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T09:47:28.169000,4a4dc9eb,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T09:48:09.832000,5347444c,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:48:09.938000,5347444c,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:48:09.995000,5347444c,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:48:10.254000,5347444c,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T09:48:50.565000,8e4ac973,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:48:50.911000,8e4ac973,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:48:51.296000,8e4ac973,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T09:48:51.468000,8e4ac973,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T09:48:53.697000,34ca17b3,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:48:53.879000,34ca17b3,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:48:54.318000,34ca17b3,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:48:54.913000,34ca17b3,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:50:27.647000,eddc5ed6,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:50:28.059000,eddc5ed6,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T09:50:28.182000,eddc5ed6,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T09:50:28.638000,eddc5ed6,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T09:52:20.767000,fb8a0a2c,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:52:21.137000,fb8a0a2c,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:52:22.416000,fb8a0a2c,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T09:52:24.626000,fb8a0a2c,voice_assistant,reconnect,WARN,,voice_assistant attempting reconnect after error E-VA-201
+2026-08-01T09:53:04.008000,df1799a2,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T09:53:04.233000,df1799a2,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T09:53:04.915000,df1799a2,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T09:53:05.436000,df1799a2,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T09:54:53.576000,b9dba01d,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:54:54.073000,b9dba01d,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:54:54.231000,b9dba01d,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:55:27.817000,edf19c96,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T09:55:27.947000,edf19c96,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T09:55:28.402000,edf19c96,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T09:55:28.769000,edf19c96,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T09:57:05.991000,64d3235c,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T09:57:06.119000,64d3235c,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T09:57:06.691000,64d3235c,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T09:57:07.389000,64d3235c,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T09:57:23.796000,910eb6e8,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T09:57:24.205000,910eb6e8,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T09:57:24.999000,910eb6e8,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T09:59:11.290000,42011cfa,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T09:59:11.445000,42011cfa,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T09:59:11.644000,42011cfa,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T09:59:45.875000,c3cdb663,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T09:59:47.261000,c3cdb663,wifi,error,ERROR,E-WIFI-301,WiFi module failed to acquire IP address via DHCP
+2026-08-01T09:59:50.070000,c3cdb663,wifi,reconnect,WARN,,wifi attempting reconnect after error E-WIFI-301
+2026-08-01T10:01:29.698000,c05d2b9d,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:01:30.406000,c05d2b9d,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:01:31.106000,c05d2b9d,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:02:52.798000,988e8eeb,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:02:53.171000,988e8eeb,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:02:53.375000,988e8eeb,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:02:53.875000,988e8eeb,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:03:04.235000,10af34ab,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:03:04.566000,10af34ab,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:03:05.221000,10af34ab,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:03:05.328000,10af34ab,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:03:52.416000,b7ee2aaf,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:03:52.524000,b7ee2aaf,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:03:53.379000,b7ee2aaf,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 10s
+2026-08-01T10:03:54.248000,b7ee2aaf,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T10:05:14.771000,81ef79bd,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:05:15.415000,81ef79bd,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:05:16.032000,81ef79bd,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:06:59.542000,10900102,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:07:00.177000,10900102,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:07:00.894000,10900102,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:07:27.457000,e4b5d3fd,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:07:27.661000,e4b5d3fd,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:07:27.774000,e4b5d3fd,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:07:28.285000,e4b5d3fd,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:07:43.421000,7e8b8197,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:07:43.987000,7e8b8197,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:07:44.698000,7e8b8197,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:07:44.924000,7e8b8197,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:07:52.423000,7f1b9cfb,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T10:07:53.009000,7f1b9cfb,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T10:07:53.594000,7f1b9cfb,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T10:07:54.268000,7f1b9cfb,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T10:08:16.607000,d1f050f3,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:08:17.053000,d1f050f3,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:08:17.521000,d1f050f3,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:08:17.917000,d1f050f3,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:09:46.304000,a718d9a7,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:09:46.597000,a718d9a7,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 30s
+2026-08-01T10:10:25.319000,cabcac5d,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:10:25.986000,cabcac5d,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:10:26.189000,cabcac5d,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:10:26.580000,cabcac5d,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:10:38.988000,e6706437,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:10:39.355000,e6706437,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:10:40.076000,e6706437,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:12:11.735000,e3105f00,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:12:12.510000,e3105f00,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:12:12.646000,e3105f00,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:12:54.032000,57224428,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:12:54.212000,57224428,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:12:54.948000,57224428,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:14:26.537000,5c1c7622,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:14:26.682000,5c1c7622,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:14:27.393000,5c1c7622,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:15:54.461000,3839a1cd,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:15:54.882000,3839a1cd,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:15:55.248000,3839a1cd,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:15:55.482000,3839a1cd,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:16:25.029000,216f6259,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:16:25.275000,216f6259,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:16:25.556000,216f6259,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:16:25.746000,216f6259,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:16:46.899000,3c59efb2,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T10:16:47.468000,3c59efb2,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T10:16:48.070000,3c59efb2,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T10:16:48.659000,3c59efb2,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T10:16:55.341000,5bdeb696,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:16:55.525000,5bdeb696,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:16:56.186000,5bdeb696,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:17:46.280000,c2916e1d,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T10:17:46.750000,c2916e1d,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T10:17:47.173000,c2916e1d,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T10:17:47.915000,c2916e1d,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T10:17:48.501000,c2916e1d,wifi,error,ERROR,E-WIFI-301,WiFi module failed to acquire IP address via DHCP
+2026-08-01T10:19:26.790000,cc689bbb,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:19:27.386000,cc689bbb,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:19:27.680000,cc689bbb,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:20:08.928000,c137cbd6,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:20:09.354000,c137cbd6,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:20:10.098000,c137cbd6,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:20:10.732000,c137cbd6,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:21:09.173000,508a9806,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:21:09.737000,508a9806,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:21:10.327000,508a9806,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:21:10.805000,508a9806,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:21:32.996000,3338ac39,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T10:21:33.302000,3338ac39,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T10:21:33.405000,3338ac39,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T10:21:34.111000,3338ac39,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T10:22:37.266000,6bb46cd5,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:22:38.044000,6bb46cd5,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:22:38.622000,6bb46cd5,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:22:38.799000,6bb46cd5,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:23:17.128000,53bb8983,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T10:23:17.638000,53bb8983,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T10:23:18.213000,53bb8983,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T10:23:18.413000,53bb8983,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T10:25:06.820000,2d500e82,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:25:06.897000,2d500e82,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:25:07.371000,2d500e82,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:25:07.475000,2d500e82,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:25:08.386000,2d500e82,cloud_sync,error,ERROR,E-CLOUD-410,Cloud sync rejected: authentication token expired
+2026-08-01T10:25:10.467000,2d500e82,cloud_sync,reconnect,WARN,,cloud_sync attempting reconnect after error E-CLOUD-410
+2026-08-01T10:25:22.843000,0ee83685,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:25:22.994000,0ee83685,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:25:23.775000,0ee83685,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:25:24.490000,0ee83685,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:26:09.252000,3cc95073,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T10:26:09.444000,3cc95073,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T10:26:10.216000,3cc95073,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T10:26:10.746000,3cc95073,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T10:26:11.764000,3cc95073,wifi,error,ERROR,E-WIFI-315,WiFi authentication rejected by access point
+2026-08-01T10:26:12.588000,3cc95073,wifi,reconnect,WARN,,wifi attempting reconnect after error E-WIFI-315
+2026-08-01T10:26:16.791000,8730d2de,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:26:17.402000,8730d2de,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:26:18.196000,8730d2de,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:26:18.869000,8730d2de,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:27:28.227000,1ca8209e,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:27:28.401000,1ca8209e,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:27:28.598000,1ca8209e,cloud_sync,error,ERROR,E-CLOUD-423,Cloud sync failed: backend returned 503
+2026-08-01T10:27:30.970000,1ca8209e,cloud_sync,reconnect,WARN,,cloud_sync attempting reconnect after error E-CLOUD-423
+2026-08-01T10:27:41.531000,5053c65d,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T10:27:42.192000,5053c65d,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T10:27:42.790000,5053c65d,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T10:27:42.856000,5053c65d,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T10:29:05.641000,ae951590,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:29:05.838000,ae951590,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:29:06.186000,ae951590,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:30:02.482000,6e8cb72e,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T10:30:03.116000,6e8cb72e,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T10:30:03.592000,6e8cb72e,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T10:30:03.833000,6e8cb72e,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T10:31:31.421000,98060680,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:31:32.635000,98060680,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T10:32:39.335000,2e3550b2,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:32:40.227000,2e3550b2,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 10s
+2026-08-01T10:32:40.793000,2e3550b2,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T10:33:28.593000,30f2ddf5,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T10:33:29.315000,30f2ddf5,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T10:33:30.008000,30f2ddf5,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T10:33:30.164000,30f2ddf5,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T10:35:10.554000,13e7bfae,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:35:10.740000,13e7bfae,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:35:10.835000,13e7bfae,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:35:58.543000,05315e7d,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:35:58.772000,05315e7d,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:35:59.523000,05315e7d,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:37:00.759000,24a37e39,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:37:00.947000,24a37e39,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:37:01.061000,24a37e39,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:38:34.315000,3d3340ab,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:38:34.500000,3d3340ab,cloud_sync,error,ERROR,E-CLOUD-410,Cloud sync rejected: authentication token expired
+2026-08-01T10:39:42.106000,79240967,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:39:42.640000,79240967,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:39:42.949000,79240967,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:39:43.036000,79240967,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:41:21.451000,9e08aff3,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:41:21.549000,9e08aff3,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:41:22.270000,9e08aff3,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:42:06.729000,8e953b84,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:42:07.229000,8e953b84,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:42:07.674000,8e953b84,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:42:08.071000,8e953b84,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:42:08.553000,8e953b84,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T10:42:57.687000,ef72cfc3,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:42:58.481000,ef72cfc3,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:42:58.965000,ef72cfc3,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:43:11.199000,7584ae71,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:43:11.807000,7584ae71,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:43:12.157000,7584ae71,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:43:12.535000,7584ae71,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:43:27.887000,8ce342df,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T10:43:28.250000,8ce342df,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T10:43:28.756000,8ce342df,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T10:43:29.423000,8ce342df,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T10:45:02.930000,ac7d18b3,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:45:03.023000,ac7d18b3,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:45:03.817000,ac7d18b3,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:45:04.639000,ac7d18b3,cloud_sync,error,ERROR,E-CLOUD-423,Cloud sync failed: backend returned 503
+2026-08-01T10:45:41.747000,4b821ab0,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:45:41.873000,4b821ab0,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:45:42.610000,4b821ab0,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:47:06.355000,42fb05de,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:47:06.568000,42fb05de,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:47:06.649000,42fb05de,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:47:06.845000,42fb05de,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:48:57.343000,4e8f7d05,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:48:57.428000,4e8f7d05,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:48:57.607000,4e8f7d05,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:49:08.032000,430b3642,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T10:49:08.452000,430b3642,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T10:49:08.894000,430b3642,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T10:49:09.524000,430b3642,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T10:49:15.954000,ad963990,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:49:16.458000,ad963990,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:49:16.715000,ad963990,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 30s
+2026-08-01T10:49:18.718000,ad963990,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T10:50:11.023000,7ed844fb,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:50:11.189000,7ed844fb,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:50:11.265000,7ed844fb,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:50:11.505000,7ed844fb,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:51:17.130000,fde7e52c,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T10:51:17.300000,fde7e52c,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T10:51:17.618000,fde7e52c,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T10:52:58.887000,f6b065e3,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:52:59.563000,f6b065e3,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:52:59.905000,f6b065e3,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:53:00.665000,f6b065e3,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T10:54:59.853000,373bc3a1,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T10:54:59.978000,373bc3a1,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T10:55:00.490000,373bc3a1,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T10:55:00.716000,373bc3a1,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T10:56:57.855000,d9a07eae,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T10:56:58.603000,d9a07eae,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T10:56:58.980000,d9a07eae,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T10:58:26.593000,84c4ed5d,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T10:58:27.198000,84c4ed5d,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T10:58:27.545000,84c4ed5d,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T10:58:27.902000,84c4ed5d,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:00:18.669000,deeda898,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:00:19.372000,deeda898,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:00:19.600000,deeda898,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:00:20.020000,deeda898,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:01:27.312000,29351f07,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:01:27.867000,29351f07,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:01:28.020000,29351f07,wifi,error,ERROR,E-WIFI-301,WiFi module failed to acquire IP address via DHCP
+2026-08-01T11:01:30.031000,29351f07,wifi,reconnect,WARN,,wifi attempting reconnect after error E-WIFI-301
+2026-08-01T11:02:31.397000,a608cd00,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:02:32.312000,a608cd00,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 15s
+2026-08-01T11:02:34.489000,a608cd00,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T11:04:21.614000,ab6abd02,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:04:22.124000,ab6abd02,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T11:04:22.651000,ab6abd02,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T11:04:24.143000,ab6abd02,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 30s
+2026-08-01T11:04:26.901000,ab6abd02,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T11:05:50.083000,dcb94a50,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:05:50.576000,dcb94a50,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T11:05:51.140000,dcb94a50,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T11:07:49.720000,09a6d7bb,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T11:07:49.926000,09a6d7bb,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T11:07:50.287000,09a6d7bb,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T11:07:50.505000,09a6d7bb,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T11:08:12.785000,d162386f,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:08:13.189000,d162386f,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:08:13.770000,d162386f,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:08:14.110000,d162386f,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:10:04.810000,1df749ba,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T11:10:05.424000,1df749ba,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T11:10:05.755000,1df749ba,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T11:10:05.933000,1df749ba,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T11:11:28.078000,6449c728,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:11:28.642000,6449c728,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:11:29.348000,6449c728,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:11:29.570000,6449c728,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:12:46.662000,d4937e81,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:12:46.741000,d4937e81,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T11:12:46.874000,d4937e81,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T11:12:47.067000,d4937e81,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 30s
+2026-08-01T11:12:48.430000,d4937e81,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T11:14:29.134000,3b03b96e,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:14:29.215000,3b03b96e,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T11:14:29.774000,3b03b96e,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T11:16:25.481000,66d89d3e,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:16:25.840000,66d89d3e,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:16:26.384000,66d89d3e,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:16:59.898000,d930a2ae,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:17:00.022000,d930a2ae,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:17:00.777000,d930a2ae,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:17:10.322000,2eb96298,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:17:10.847000,2eb96298,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:17:11.105000,2eb96298,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:17:11.503000,2eb96298,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:18:31.288000,44410253,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:18:31.664000,44410253,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:18:32.067000,44410253,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:18:32.525000,44410253,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:18:50.683000,57fa412d,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:18:51.059000,57fa412d,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:18:51.356000,57fa412d,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:18:51.883000,57fa412d,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:19:09.077000,44865a75,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:19:09.226000,44865a75,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:19:09.327000,44865a75,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:19:09.674000,44865a75,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:20:00.887000,38eed160,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:20:01.272000,38eed160,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T11:20:01.913000,38eed160,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T11:21:36.126000,a3bd9e11,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:21:36.686000,a3bd9e11,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:21:37.263000,a3bd9e11,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:21:37.791000,a3bd9e11,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:22:42.933000,5d8dbd29,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:22:43.385000,5d8dbd29,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:22:43.952000,5d8dbd29,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:22:44.470000,5d8dbd29,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:23:16.569000,cf4bf21b,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:23:16.670000,cf4bf21b,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:23:17.008000,cf4bf21b,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:23:17.564000,cf4bf21b,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:24:35.906000,04b31727,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:24:36.505000,04b31727,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:24:36.563000,04b31727,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:26:26.883000,4d88819a,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T11:26:27.677000,4d88819a,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T11:26:28.101000,4d88819a,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T11:26:28.563000,4d88819a,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T11:27:17.196000,4187e5ab,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T11:27:17.821000,4187e5ab,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T11:27:18.070000,4187e5ab,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T11:27:18.491000,4187e5ab,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T11:28:31.179000,b3e1c7de,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:28:31.925000,b3e1c7de,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:28:32.600000,b3e1c7de,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:28:32.943000,b3e1c7de,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T11:29:25.340000,c4d67333,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:29:25.961000,c4d67333,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:29:26.385000,c4d67333,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:29:26.582000,c4d67333,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:29:54.144000,df58dbf0,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:29:54.235000,df58dbf0,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T11:29:54.331000,df58dbf0,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T11:30:00.866000,d7163b68,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:30:01.447000,d7163b68,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:30:01.964000,d7163b68,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:30:02.166000,d7163b68,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:31:21.618000,2d2233b9,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:31:22.980000,2d2233b9,navigation,error,ERROR,E-NAV-118,Navigation module lost GPS fix for 10s
+2026-08-01T11:31:25.557000,2d2233b9,navigation,reconnect,WARN,,navigation attempting reconnect after error E-NAV-118
+2026-08-01T11:33:14.332000,aba3abc3,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:33:14.958000,aba3abc3,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T11:33:15.314000,aba3abc3,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T11:34:18.053000,0c5bfe55,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T11:34:18.215000,0c5bfe55,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T11:34:18.691000,0c5bfe55,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T11:34:19.338000,0c5bfe55,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T11:35:01.032000,2dce5bf6,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:35:01.109000,2dce5bf6,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:35:01.770000,2dce5bf6,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:36:04.412000,5af7760b,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:36:05.053000,5af7760b,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:36:05.336000,5af7760b,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:36:06.124000,5af7760b,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:36:14.710000,96286912,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T11:36:15.404000,96286912,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T11:36:16.192000,96286912,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T11:37:37.828000,cc5cbf5a,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T11:37:38.153000,cc5cbf5a,cloud_sync,error,ERROR,E-CLOUD-410,Cloud sync rejected: authentication token expired
+2026-08-01T11:37:39.937000,cc5cbf5a,cloud_sync,reconnect,WARN,,cloud_sync attempting reconnect after error E-CLOUD-410
+2026-08-01T11:38:35.195000,59f17d09,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:38:35.665000,59f17d09,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:38:36.228000,59f17d09,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:38:36.904000,59f17d09,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:40:36.698000,7e13d1a1,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T11:40:36.811000,7e13d1a1,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T11:40:37.583000,7e13d1a1,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T11:40:37.774000,7e13d1a1,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T11:41:46.502000,7bd4af62,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:41:47.041000,7bd4af62,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:41:47.629000,7bd4af62,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:41:48.064000,7bd4af62,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:42:30.659000,69df3bff,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:42:31.059000,69df3bff,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:42:31.668000,69df3bff,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:42:32.080000,69df3bff,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:44:00.839000,6cf93f59,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:44:01.159000,6cf93f59,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:44:01.833000,6cf93f59,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:45:05.168000,7d362f50,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:45:05.789000,7d362f50,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:45:06.144000,7d362f50,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:45:06.424000,7d362f50,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:45:47.180000,9f006c91,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:45:47.951000,9f006c91,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:45:48.501000,9f006c91,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:45:48.875000,9f006c91,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:46:52.663000,3807e033,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:46:52.993000,3807e033,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:46:53.337000,3807e033,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:46:53.511000,3807e033,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:48:08.965000,72f8de55,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:48:09.368000,72f8de55,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:48:09.567000,72f8de55,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:48:49.348000,9fc05b7c,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T11:48:49.478000,9fc05b7c,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T11:48:49.882000,9fc05b7c,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T11:48:50.384000,9fc05b7c,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T11:50:15.653000,5e13ebbf,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:50:15.909000,5e13ebbf,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:50:16.510000,5e13ebbf,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:50:16.837000,5e13ebbf,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:51:29.998000,67ff114f,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:51:30.678000,67ff114f,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:51:31.328000,67ff114f,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:52:03.431000,370c25d6,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:52:03.583000,370c25d6,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:52:04.529000,370c25d6,wifi,error,ERROR,E-WIFI-301,WiFi module failed to acquire IP address via DHCP
+2026-08-01T11:52:18.584000,3cdbca1a,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:52:19.197000,3cdbca1a,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:52:19.408000,3cdbca1a,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:53:13.945000,b64fa70f,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T11:53:14.483000,b64fa70f,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T11:53:15.199000,b64fa70f,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T11:53:42.910000,fd7d28b6,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:53:43.020000,fd7d28b6,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:53:43.161000,fd7d28b6,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:53:43.878000,fd7d28b6,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:54:59.668000,4fafb8b5,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:54:59.756000,4fafb8b5,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:54:59.985000,4fafb8b5,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:55:00.462000,4fafb8b5,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:56:54.549000,96aad47f,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T11:56:55.005000,96aad47f,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T11:56:55.562000,96aad47f,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T11:56:55.802000,96aad47f,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T11:58:32.861000,81614fc2,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:58:33.216000,81614fc2,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:58:33.847000,81614fc2,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:58:34.514000,81614fc2,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T11:58:50.220000,d93837be,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T11:58:50.826000,d93837be,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T11:58:51.412000,d93837be,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T11:58:51.967000,d93837be,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:00:47.496000,adb731d9,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:00:47.825000,adb731d9,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:00:48.072000,adb731d9,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:00:48.237000,adb731d9,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:01:32.950000,4909f162,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:01:33.263000,4909f162,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:01:34.048000,4909f162,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:01:34.288000,4909f162,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:01:37.640000,4f505bf8,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:01:38.271000,4f505bf8,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:01:39.011000,4f505bf8,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T12:03:17.588000,a0345a06,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:03:17.973000,a0345a06,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:03:18.111000,a0345a06,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:03:18.571000,a0345a06,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:03:20.041000,a0345a06,wifi,error,ERROR,E-WIFI-315,WiFi authentication rejected by access point
+2026-08-01T12:03:21.116000,a0345a06,wifi,reconnect,WARN,,wifi attempting reconnect after error E-WIFI-315
+2026-08-01T12:04:24.172000,b53e9d73,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:04:24.489000,b53e9d73,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:04:24.931000,b53e9d73,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:04:25.222000,b53e9d73,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:05:24.581000,16ef9b84,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:05:25.227000,16ef9b84,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:05:26.017000,16ef9b84,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:05:26.653000,16ef9b84,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:05:30.412000,d46e2965,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:05:30.703000,d46e2965,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:05:30.816000,d46e2965,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:05:31.549000,d46e2965,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:05:49.014000,327000d8,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T12:05:49.766000,327000d8,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T12:05:50.330000,327000d8,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T12:05:51.100000,327000d8,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T12:07:31.804000,01f853f8,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:07:32.156000,01f853f8,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:07:32.582000,01f853f8,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:07:33.261000,01f853f8,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:08:03.800000,baac0a03,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:08:04.006000,baac0a03,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:08:04.521000,baac0a03,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:08:05.191000,baac0a03,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:08:54.723000,dc01063b,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T12:08:55.323000,dc01063b,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T12:08:56.053000,dc01063b,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T12:08:56.326000,dc01063b,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T12:10:35.986000,c4a34b58,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:10:36.119000,c4a34b58,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:10:36.707000,c4a34b58,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:10:37.214000,c4a34b58,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:11:46.841000,1921fc64,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:11:47.005000,1921fc64,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:11:47.118000,1921fc64,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T12:13:35.375000,91d16f02,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:13:36.011000,91d16f02,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:13:36.610000,91d16f02,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:13:58.192000,1187ab48,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:13:58.694000,1187ab48,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:13:58.863000,1187ab48,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:13:59.609000,1187ab48,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:14:27.752000,1b4a91cf,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:14:28.324000,1b4a91cf,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:14:28.830000,1b4a91cf,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T12:16:14.405000,8075080b,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T12:16:14.880000,8075080b,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T12:16:15.397000,8075080b,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T12:16:16.024000,8075080b,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T12:16:25.389000,6cad9328,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:16:26.179000,6cad9328,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:16:26.251000,6cad9328,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:17:18.524000,6aff0d18,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:17:19.166000,6aff0d18,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:17:19.290000,6aff0d18,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:17:19.386000,6aff0d18,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:18:15.990000,ef0008d2,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:18:16.101000,ef0008d2,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:18:16.221000,ef0008d2,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:18:16.754000,ef0008d2,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:18:22.942000,3b416794,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:18:23.648000,3b416794,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:18:24.444000,3b416794,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:18:25.155000,3b416794,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:19:20.596000,97d338c8,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:19:21.105000,97d338c8,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:19:21.541000,97d338c8,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:19:21.975000,97d338c8,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:19:34.577000,cd545feb,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:19:34.763000,cd545feb,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:19:35.482000,cd545feb,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T12:21:28.277000,a330e559,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:21:28.555000,a330e559,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:21:28.662000,a330e559,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T12:22:30.146000,dce67476,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:22:30.740000,dce67476,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:22:31.178000,dce67476,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T12:24:18.582000,23e1d874,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:24:18.790000,23e1d874,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:24:19.122000,23e1d874,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:24:19.365000,23e1d874,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:26:13.447000,f8ff3312,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:26:14.173000,f8ff3312,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:26:14.652000,f8ff3312,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T12:27:34.770000,be2a1747,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T12:27:34.923000,be2a1747,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T12:27:35.581000,be2a1747,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T12:27:35.665000,be2a1747,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T12:28:34.764000,474540d1,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:28:35.064000,474540d1,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:28:35.159000,474540d1,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:29:28.431000,c7de1f67,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T12:29:28.538000,c7de1f67,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T12:29:28.731000,c7de1f67,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T12:29:29.296000,c7de1f67,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T12:30:09.095000,f2791d63,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:30:09.734000,f2791d63,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:30:10.110000,f2791d63,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:30:10.751000,f2791d63,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:31:29.043000,8e9c62ce,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:31:29.402000,8e9c62ce,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:31:29.598000,8e9c62ce,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T12:32:55.955000,1b30866a,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:32:56.286000,1b30866a,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:32:56.398000,1b30866a,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:34:09.627000,b0ce893e,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:34:10.318000,b0ce893e,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:34:11.063000,b0ce893e,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:35:07.465000,12581714,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:35:08.173000,12581714,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:35:08.910000,12581714,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:35:59.386000,161a4414,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:35:59.854000,161a4414,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:36:00.056000,161a4414,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:36:40.656000,23ca42d1,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T12:36:41.190000,23ca42d1,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T12:36:41.486000,23ca42d1,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T12:36:41.766000,23ca42d1,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T12:37:22.391000,4289cc83,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:37:23.336000,4289cc83,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T12:37:24.385000,4289cc83,voice_assistant,reconnect,WARN,,voice_assistant attempting reconnect after error E-VA-201
+2026-08-01T12:38:15.773000,9dc8c3a3,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:38:16.485000,9dc8c3a3,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:38:16.615000,9dc8c3a3,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:38:17.125000,9dc8c3a3,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:40:07.449000,f966c918,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:40:08.321000,f966c918,infotainment_boot,error,ERROR,E-BOOT-050,Infotainment head unit boot exceeded 30s watchdog limit
+2026-08-01T12:42:01.972000,fd108efb,bluetooth,connect_attempt,INFO,,bluetooth connect attempt
+2026-08-01T12:42:02.763000,fd108efb,bluetooth,handshake,INFO,,bluetooth handshake
+2026-08-01T12:42:03.500000,fd108efb,bluetooth,paired,INFO,,bluetooth paired
+2026-08-01T12:42:04.122000,fd108efb,bluetooth,disconnect,INFO,,bluetooth disconnect
+2026-08-01T12:42:33.512000,97f1572c,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T12:42:33.872000,97f1572c,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T12:42:33.937000,97f1572c,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T12:42:34.203000,97f1572c,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T12:43:00.965000,0818efbc,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:43:02.302000,0818efbc,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T12:43:03.782000,0818efbc,voice_assistant,reconnect,WARN,,voice_assistant attempting reconnect after error E-VA-201
+2026-08-01T12:44:16.221000,1a20d6b3,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:44:16.748000,1a20d6b3,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:44:17.344000,1a20d6b3,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:44:18.058000,1a20d6b3,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:45:05.633000,0d698854,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:45:06.192000,0d698854,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:45:06.719000,0d698854,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:45:06.869000,0d698854,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:46:51.246000,6b28bbf4,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:46:51.504000,6b28bbf4,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:46:51.933000,6b28bbf4,voice_assistant,response_received,INFO,,voice_assistant response received
+2026-08-01T12:47:33.999000,355e391c,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T12:47:34.316000,355e391c,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T12:47:35.549000,355e391c,cloud_sync,error,ERROR,E-CLOUD-410,Cloud sync rejected: authentication token expired
+2026-08-01T12:47:37.759000,355e391c,cloud_sync,reconnect,WARN,,cloud_sync attempting reconnect after error E-CLOUD-410
+2026-08-01T12:48:17.044000,be85dbce,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:48:17.482000,be85dbce,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:48:18.115000,be85dbce,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:48:18.416000,be85dbce,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:49:24.167000,45e7bf86,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:49:24.562000,45e7bf86,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:49:24.875000,45e7bf86,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:51:04.582000,7db12808,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T12:51:05.134000,7db12808,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T12:51:05.655000,7db12808,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T12:51:05.877000,7db12808,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T12:52:41.482000,cdf35afc,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:52:42.189000,cdf35afc,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:52:42.409000,cdf35afc,infotainment_boot,error,ERROR,E-BOOT-092,Display controller failed self-test on boot
+2026-08-01T12:52:43.213000,cdf35afc,infotainment_boot,reconnect,WARN,,infotainment_boot attempting reconnect after error E-BOOT-092
+2026-08-01T12:54:29.403000,efe20f1a,voice_assistant,wake_word_detected,INFO,,voice_assistant wake word detected
+2026-08-01T12:54:30.098000,efe20f1a,voice_assistant,cloud_request_sent,INFO,,voice_assistant cloud request sent
+2026-08-01T12:54:30.671000,efe20f1a,voice_assistant,error,ERROR,E-VA-201,Voice assistant failed to reach cloud NLU endpoint
+2026-08-01T12:54:34.103000,18d6426c,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:54:34.214000,18d6426c,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:54:34.896000,18d6426c,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:54:35.599000,18d6426c,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T12:56:03.324000,64d209ab,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:56:03.873000,64d209ab,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:56:03.939000,64d209ab,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:56:06.001000,43eae9a8,navigation,gps_search,INFO,,navigation gps search
+2026-08-01T12:56:06.068000,43eae9a8,navigation,gps_fix_acquired,INFO,,navigation gps fix acquired
+2026-08-01T12:56:06.660000,43eae9a8,navigation,route_calculated,INFO,,navigation route calculated
+2026-08-01T12:57:41.003000,c0601cd3,infotainment_boot,power_on,INFO,,infotainment_boot power on
+2026-08-01T12:57:41.070000,c0601cd3,infotainment_boot,kernel_init,INFO,,infotainment_boot kernel init
+2026-08-01T12:57:41.634000,c0601cd3,infotainment_boot,services_started,INFO,,infotainment_boot services started
+2026-08-01T12:57:42.398000,c0601cd3,infotainment_boot,ui_ready,INFO,,infotainment_boot ui ready
+2026-08-01T12:59:10.631000,80f192ad,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T12:59:10.790000,80f192ad,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T12:59:10.938000,80f192ad,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T12:59:11.524000,80f192ad,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T12:59:33.113000,1723b900,wifi,connect_attempt,INFO,,wifi connect attempt
+2026-08-01T12:59:33.421000,1723b900,wifi,dhcp_request,INFO,,wifi dhcp request
+2026-08-01T12:59:33.833000,1723b900,wifi,authenticated,INFO,,wifi authenticated
+2026-08-01T12:59:34.156000,1723b900,wifi,disconnect,INFO,,wifi disconnect
+2026-08-01T13:01:17.784000,dd03f94f,cloud_sync,connect_attempt,INFO,,cloud_sync connect attempt
+2026-08-01T13:01:18.083000,dd03f94f,cloud_sync,auth_handshake,INFO,,cloud_sync auth handshake
+2026-08-01T13:01:18.846000,dd03f94f,cloud_sync,sync_started,INFO,,cloud_sync sync started
+2026-08-01T13:01:19.127000,dd03f94f,cloud_sync,sync_complete,INFO,,cloud_sync sync complete
+2026-08-01T13:01:19.841000,dd03f94f,cloud_sync,error,ERROR,E-CLOUD-423,Cloud sync failed: backend returned 503
