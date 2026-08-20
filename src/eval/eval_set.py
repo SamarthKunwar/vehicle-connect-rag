@@ -1,0 +1,17 @@
+EVAL_SET = [
+    {"query": "why does bluetooth lose signal", "expected_error_code": "E-BT-207"},
+    {"query": "bluetooth won't pair with my phone", "expected_error_code": "E-BT-104"},
+    {"query": "wifi isn't getting an ip address", "expected_error_code": "E-WIFI-301"},
+    {"query": "wifi keeps rejecting my password", "expected_error_code": "E-WIFI-315"},
+    {"query": "the infotainment screen takes forever to boot", "expected_error_code": "E-BOOT-050"},
+    {"query": "the display doesn't turn on at startup", "expected_error_code": "E-BOOT-092"},
+    {"query": "cloud sync says my login expired", "expected_error_code": "E-CLOUD-410"},
+    {"query": "cloud backup failed with a server error", "expected_error_code": "E-CLOUD-423"},
+    {"query": "navigation lost gps in a tunnel", "expected_error_code": "E-NAV-118"},
+    {"query": "voice assistant can't reach the cloud", "expected_error_code": "E-VA-201"},
+    {"query": "what causes E-WIFI-301", "expected_error_code": "E-WIFI-301"},
+    {"query": "car radio failed its self test on startup", "expected_error_code": "E-BOOT-092"},
+    {"query": "gps signal dropped for a few seconds", "expected_error_code": "E-NAV-118"},
+    {"query": "authentication token expired for cloud sync", "expected_error_code": "E-CLOUD-410"},
+    {"query": "my phone keeps randomly disconnecting from the car while driving", "expected_error_code": "E-BT-207"},
+]

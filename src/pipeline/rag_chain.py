@@ -15,17 +15,21 @@ ERROR_CODE_PATTERN = re.compile(r"E-[A-Z]+-\d+")
 MODEL_NAME = "llama3.1:8b"
 
 
+def format_log_sessions(log_sessions):
+    if not log_sessions:
+        return "(no matching log events found)"
+
+    log_text = ""
+    for session in log_sessions:
+        log_text += f"\nSession {session['session_id']}:\n"
+        for e in session["trace"]:
+            log_text += f"  {e['timestamp']} | {e['event_type']} | {e['severity']} | {e['message']}\n"
+    return log_text
+
+
 def build_prompt(query, doc_chunk, log_sessions):
     doc_text = doc_chunk["text"] if doc_chunk else "(no matching documentation found)"
-
-    if log_sessions:
-        log_text = ""
-        for session in log_sessions:
-            log_text += f"\nSession {session['session_id']}:\n"
-            for e in session["trace"]:
-                log_text += f"  {e['timestamp']} | {e['event_type']} | {e['severity']} | {e['message']}\n"
-    else:
-        log_text = "(no matching log events found)"
+    log_text = format_log_sessions(log_sessions)
 
     return f"""You are a diagnostics assistant for a connected-vehicle infotainment platform.
 Answer the user's question using ONLY the documentation and log evidence below.
@@ -66,7 +70,7 @@ def find_doc_chunk_by_error_code(error_code):
     return dict(row) if row else None
 
 
-def answer_query(query, top_k=1):
+def answer_query(query, top_k=1, synthesize=True):
     explicit_match = ERROR_CODE_PATTERN.search(query.upper())
 
     if explicit_match:
@@ -83,7 +87,7 @@ def answer_query(query, top_k=1):
     doc_chunk = find_doc_chunk_by_error_code(error_code) if error_code else None
     log_context = get_context_for_error_code(error_code, limit=2) if error_code else []
 
-    answer = synthesize_answer(query, doc_chunk, log_context)
+    answer = synthesize_answer(query, doc_chunk, log_context) if synthesize else None
 
     return {
         "query": query,
