@@ -33,14 +33,23 @@ retrieval was correct.
 {answer}
 
 # Your task
+Both the documentation and the log sessions above count as evidence --
+they are not two separate tiers. A claim about *why* something happens,
+what it means, or what to do about it is grounded if it matches the
+documentation, even if that exact wording never appears in the logs. A
+claim about a *specific event* -- a timestamp, a duration, a session ID,
+whether something did or didn't happen in this instance -- must match the
+log evidence specifically; the documentation alone cannot support it.
+
 Step 1: List each distinct factual claim in the AI's answer as a numbered
 list. For any claim involving a number (a duration, a time gap, a count),
 recompute that number yourself directly from the raw timestamps/text in
 the evidence above -- do not trust the AI's arithmetic, redo it.
 
-Step 2: For each claim, write one line: quote the exact evidence that
-supports or contradicts it, or write "NOT IN EVIDENCE" if the evidence
-doesn't address it at all.
+Step 2: For each claim, write one line: quote the exact evidence (from
+either the documentation or the logs, whichever applies) that supports or
+contradicts it, or write "NOT IN EVIDENCE" only if neither source
+addresses it at all.
 
 Step 3: Based only on what you wrote in Step 2 -- not on how the answer
 reads -- give your final verdict.

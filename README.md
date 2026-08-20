@@ -163,6 +163,13 @@ fields, not one field doing both jobs.
 
 ## Evaluation
 
+Two separate questions get measured separately: did retrieval find the
+right evidence, and does the synthesized answer actually stay faithful to
+that evidence. They're different failure modes and conflating them into
+one score would hide which stage actually broke.
+
+### Retrieval accuracy
+
 `src/eval/eval_retrieval.py` runs 15 hand-written questions
 (`src/eval/eval_set.py`) against the routing logic and checks whether it
 resolves to the correct error code — one question per error code, one
@@ -196,6 +203,62 @@ a system whose failure modes are identified, explained, and measured is
 more credible than one that happens to score 100% on 15 hand-picked
 questions with no visibility into where it would break on a 16th.
 
+### Answer groundedness (LLM-as-judge)
+
+`src/eval/eval_answer.py` uses a second local LLM call to grade whether
+the synthesized answer stays faithful to the retrieved evidence, rather
+than drifting into plausible-sounding but unsupported inference —
+exactly the kind of thing regex or exact-match scoring can't catch. This
+is the "LLM-as-judge" pattern: use a model to grade another model's
+output against a rubric.
+
+**First version, and why it failed.** The initial judge prompt asked for
+a holistic verdict plus a free-text issues list. Manually verifying a
+sample against ground truth (pulling the real log/doc data by hand)
+showed the judge was **unreliable in both directions**: it flagged
+statements as unsupported that it simultaneously described as *"correct
+and supported by the evidence"* (a self-contradiction in the same
+response), misattributed a claim to the wrong session, and missed real
+arithmetic errors in the answer it was grading (a reconnect-gap
+calculation off by a full second) while inventing unrelated complaints
+instead. A verdict that happened to land close to a human's was
+frequently right for the wrong reasons — which means the reasoning
+couldn't be trusted even when the top-line label looked fine.
+
+**Second version: force transparency.** Rewrote the prompt so the judge
+must list every claim individually, quote the exact evidence for each
+one (or state plainly that nothing supports it), and explicitly
+recompute any numeric claim from raw timestamps rather than trust the
+answer's math — reasoning before conclusion, not conclusion first. This
+made the judge's output fully auditable: every verdict now traces to a
+specific quote or an explicit gap, instead of a vague "ISSUES" list. On
+re-verification this version also surfaced a real, previously-missed bug
+in the judge's own evidence handling — it was treating "not restated in
+the logs" as "unsupported" even for claims correctly drawn from the
+provided documentation, which is evidence too. Adding one clarifying
+sentence (documentation counts as evidence for cause/diagnosis/
+resolution claims; only event-specific details need to match the logs
+themselves) fixed that.
+
+**What's left, and why it's a stopping point, not a bug.** Even after
+both fixes, the judge — while now auditable — is still not fully
+reliable: asked to recompute `10.699000 − 09.692000`, it confidently
+produced `0.007` instead of `1.007`, then used its own wrong number to
+mark a correct claim as false. Telling a model to "double-check its
+arithmetic" doesn't fix arithmetic it can't reliably do in the first
+place. This is a capability ceiling for an 8B local model on this
+specific task, not something a third prompt rewrite would resolve.
+
+**Conclusion:** the prompt-engineering iterations measurably improved the
+judge's transparency and auditability — every verdict can now be traced
+and checked — but did not, and likely could not, fully fix its numeric
+reliability. Trustworthy automated faithfulness scoring at this level of
+detail would need either a stronger judge model or a human-verified
+sample as a calibration check on the automated one. Reporting a raw
+GROUNDED/PARTIALLY_GROUNDED percentage from this harness as a headline
+metric would overstate what's actually been verified, so this section
+documents the investigation and its limits instead of a single number.
+
 ## Data
 
 The event logs and documentation in `data/` are **synthetic**, generated
@@ -216,9 +279,10 @@ search (`src/retrieval/semantic_search.py`) and routes between them
 (`llama3.1:8b` through Ollama) that turns retrieved evidence into a
 grounded, cited answer.
 
-The evaluation harness currently covers retrieval accuracy (14/15, see
-*Evaluation* above); answer-correctness / groundedness metrics and a
-simple UI are still planned.
+The evaluation harness now covers both retrieval accuracy (14/15) and an
+investigated-but-not-fully-solved answer-groundedness check (see
+*Evaluation* above for both). A simple UI (`src/app.py`, Streamlit) is
+implemented — the last piece from the original roadmap.
 
 ### Possible extensions
 
@@ -229,3 +293,8 @@ simple UI are still planned.
 - Swap the synthetic log generator for real public CAN bus data (e.g. the
   HCRL Car-Hacking or ROAD datasets), decoded through a self-built
   DBC-style translation layer — see *Why the data is synthetic* above.
+- A stronger or more constrained LLM-as-judge setup to make automated
+  answer-groundedness scoring trustworthy enough to report as a metric
+  (see *Answer groundedness* above for what was tried and why it wasn't
+  enough on its own).
+
